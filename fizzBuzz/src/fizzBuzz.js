@@ -1,19 +1,24 @@
 function fizzBuzz(num)  {
+
+    //Checks that value supplied is a number
+    if (typeof num != 'number'){
+        return "Please input a number";
+    }
+    
+    // Returns 'FizzBuzz', 'Buzz', 'Fizz' for numbers that are divisible by 3 and 5, 5 only, 3 only respectively.
     if (typeof num == 'number') { 
         if (num % 3 == 0 && num % 5 == 0) {
-            return "fizzBuzz";
+            return "FizzBuzz";
         }
         else if (num % 5 == 0) {
-            return "buzz";
+            return "Buzz";
         } 
         else if (num % 3 == 0) {
-            return "fizz";
+            return "Fizz";
         } 
         else {
             return num ;
         }
     }
-    else {
-console.log("Numbers only");  
-    }
 }
+module.exports = fizzBuzz;
