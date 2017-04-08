@@ -23,5 +23,8 @@ function aritGeo(arr){
         else if (geometric == true) {
             return "Geometric";
         }
+        else {
+            return -1;
+        }
     }
 }
