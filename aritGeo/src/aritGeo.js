@@ -13,6 +13,9 @@ function aritGeo(arr){
             if (arr[i + 1] - arr[i] !== diff ) {
                 arithmetic = false;
             }
+            if (arr[i + 1] / arr[i] !== ratio ) {
+                geometric = false;
+            }
         }
     }
 }
