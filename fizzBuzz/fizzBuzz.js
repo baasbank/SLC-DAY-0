@@ -7,5 +7,8 @@ function fizzBuzz(val)  {
     } 
     else if (val % 3 == 0) {
         return "fizz";
-        } 
+    } 
+    else {
+        return val ;
+        }
 }
