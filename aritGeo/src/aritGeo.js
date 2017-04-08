@@ -20,5 +20,8 @@ function aritGeo(arr){
         if (arithmetic == true) {
             return "Arithmetic";
         }
+        else if (geometric == true) {
+            return "Geometric";
+        }
     }
 }
