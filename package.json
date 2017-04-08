@@ -1,0 +1,24 @@
+{
+  "name": "SLC-DAY-0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baasbank/SLC-DAY-0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baasbank/SLC-DAY-0/issues"
+  },
+  "homepage": "https://github.com/baasbank/SLC-DAY-0#readme"
+}
